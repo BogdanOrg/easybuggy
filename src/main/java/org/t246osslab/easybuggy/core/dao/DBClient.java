@@ -19,6 +19,7 @@ public final class DBClient {
 
     private static final Logger log = LoggerFactory.getLogger(DBClient.class);
 
+    
     static {
         Statement stmt = null;
         Connection conn= null;
